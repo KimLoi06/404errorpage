@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Gill Sans", sans-serif;
+    background-image: url("https://wallpaperaccess.com/full/768855.jpg");
+    background-size: cover;
+}
+section{
+    width:100%;
+}
+.error{
+    position: absolute;
+    /* width: 60%; */
+    /* right: 25%; */
+    top: 50%;
+    padding-left: 60%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #343434;
+}
+
+.error h1{
+    font-size: 160px;
+    margin: 0;
+    letter-spacing: 20px;
+    font-weight: 700;
+}
+
+.error a{
+    text-decoration: none;
+    background: #f8c291;
+    color: black;
+    padding: 10px 20px;
+    display: inline-flex;
+    border-radius: 25px;
+}
+
+.error a:hover{
+    background: #fa983a;
+}
